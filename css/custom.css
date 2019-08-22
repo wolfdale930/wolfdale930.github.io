@@ -1,0 +1,193 @@
+@media(max-width:600px){
+    .intro{
+        width: 70%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 35px;
+        margin: auto;
+        text-align: center;
+    }
+    .parallax-img{
+        height: 100%;
+        width: auto;
+        padding-right: 75%;
+    }
+    .about-panel{
+        height: 55vh;
+        padding-top: 5%;
+        background-color: #282828;
+        text-align: center;
+    }
+    .about-content{
+        height: 50vh;
+        margin: auto;
+    }
+    .project-img{
+        height: auto; 
+        width: 100%;
+    }
+    .skills-panel{
+        height: 60vh;
+        padding-top: 1vh;
+        background-color: #282828;
+        text-align: center;
+    }
+    .carousel.carousel-slider {
+        height: 80vh !important;
+    }
+    h1{
+        font-size: xx-large;
+    }
+    .project-title{
+        font-size: smaller;
+    }
+}
+@media(min-width:601px) and (max-width:992px){
+    .intro{
+        width: 45%;
+        margin-left: 5%;
+        margin-top: 15%;
+    }
+    .parallax-img{
+        height: 100%;
+        width: auto;
+        padding-right: 50%;
+    }
+    .about-panel{
+        height: 35vh;
+        padding-top: 5%;
+        background-color: #282828;
+        text-align: center;
+    }
+    .about-content{
+        height: 30vh;
+        margin: auto;
+    }
+    .project-img{
+        height: 50vh; 
+        width: auto;
+    }
+    .skills-panel{
+        height: 60vh;
+        padding-top: 1vh;
+        background-color: #282828;
+        text-align: center;
+    }
+    .carousel{
+    height: 30vh;
+}
+}
+@media(min-width:993px) and (max-width:1200px){
+    .intro{
+        width: 45%;
+        margin-left: 5%;
+        margin-top: 15%;
+    }
+    .parallax-img{
+        height: 100%;
+        width: auto;
+    }
+    .about-panel{
+        height: 35vh;
+        padding-top: 1vh;
+        background-color: #282828;
+        text-align: center;
+    }
+    .about-content{
+        height: 20vh;
+        margin: auto;
+    }
+    .project-img{
+        height: 60vh; 
+        width: auto;
+    }
+    .skills-panel{
+        height: 60vh;
+        padding-top: 1vh;
+        background-color: #282828;
+        text-align: center;
+    }
+}
+@media(min-width:1201px){
+    .intro{
+        width: 45%;
+        margin-left: 5%;
+        margin-top: 20%;
+    }
+    .parallax-img{
+        width: 102%;
+        height: auto;
+    }
+    .about-panel{
+        height: 40vh;
+        padding-top: 1vh;
+        background-color: #282828;
+        text-align: center;
+    }
+    .about-content{
+        height: 20vh;
+        margin: auto;
+    }
+    .project-img{
+        height: 60vh; 
+        width: auto;
+    }
+    .skills-panel{
+        height: 60vh;
+        padding-top: 1vh;
+        background-color: #282828;
+        text-align: center;
+    }
+    .carousel.carousel-slider {
+        height: 80vh !important;
+    }
+}
+.parallax-container {
+    height: 100vh;
+
+}
+
+/* .carousel.carousel-slider {
+    height: 80vh !important;
+} */
+.carousel{
+    height: 40vh;
+}
+
+.glass{
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0; 
+    bottom: 0;
+    box-shadow: inset 0 0 0 3000px rgba(28, 28, 28, 0.55);
+    position: absolute;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.side-nav{
+    padding-left: 15px;
+    position: fixed;
+    width: 18%;
+    top: 0;
+    right: 0;
+    margin-top: 50%;
+    border-left: 3px solid #2cb5d5;
+    z-index: 3000;
+}
+a{
+    color: white;
+}
+.static{
+    position: fixed;
+    width: 10%;
+    top: 40%;
+    right: 0;
+    padding-left: 10px;
+    border-left: #2cb5d5 solid 2px;
+    z-index: 3000;
+}ul li {
+    color: white;
+}
